@@ -36,10 +36,15 @@ class UserNameActivity : AppCompatActivity() {
     }
 
     private fun saveUserName(userName: String) {
-
+        intent.apply {
+            putExtra(EXTRA_USER_NAME, userName)
+            setResult(RESULT_OK, this)
+        }
     }
 
     companion object {
+
+        const val EXTRA_USER_NAME = "user_name"
 
         fun newIntent(context: Context) = Intent(context, UserNameActivity::class.java)
     }
