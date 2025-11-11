@@ -12,26 +12,29 @@
         android:id="@+id/get_user_name_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Get Name" />
+        android:text="@string/get_name" />
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/user_name_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp" />
+        android:layout_marginTop="8dp"
+        android:hint="@string/hint" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/get_image_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Get Image" />
+        android:text="@string/get_image" />
 
     <ImageView
         android:id="@+id/image_from_gallery_imageview"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginTop="8dp"
+        android:background="@android:color/holo_blue_light"
+        android:contentDescription="@null"
         android:scaleType="centerCrop" />
 
 </LinearLayout>

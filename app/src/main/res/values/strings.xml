@@ -42,4 +42,9 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="save">Save</string>
+    <string name="enter_name">Enter name</string>
+    <string name="get_name">Get Name</string>
+    <string name="get_image">Get Image</string>
+    <string name="hint">...</string>
 </resources>
